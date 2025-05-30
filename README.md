@@ -18,7 +18,7 @@ This repository contains a fine‐tuned version of the EleutherAI **pythia-1b-de
 
 ## Disclaimer 
 
-This LLM is still in late fine tuning phase i have collected data for 4 months studied the Building engineering for months to know what is right and what is wrong because iam computer engineering the full LLM will be avaiable soon when my dad will have his birthday.
+This LLM is still in late fine tuning phase i have collected data for 4 months studied the Building engineering for months to know what is right and what is wrong because iam computer engineer the full LLM will be avaiable soon when my dad will have his birthday.
 
 
 # License
