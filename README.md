@@ -68,7 +68,7 @@ print(tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenizati
 ## License
 
 This project (code & training recipes) is released under the Apache License 2.0.
-Model weights (EleutherAI/pythia-1b-deduped) are also Apache-2.0. See [Licence](https://www.apache.org/licenses/LICENSE-2.0)
+Model weights (EleutherAI/pythia-1b-deduped) are also Apache-2.0. See [Licence](/LICENCE)
 
 
 Happy Birthday, Dad!
