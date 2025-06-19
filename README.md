@@ -13,7 +13,7 @@ Fine-tuning EleutherAI/pythia-1b for building-engineering tasks using 4-bit quan
 - **Adapters:** LoRA to teach domain-specific concepts without retraining the entire model 
 - **Training:** Code and instructions to reproduce data collection, tokenization, and fine-tuning
 
-Over the past few months, I studied building-engineering concepts—insulation, structural design, U-values, concrete strengths, etc.—to gather high-quality data. As of today (June 4, 2025), the model is available.  Feel free to try it out.
+Over the past few months, I studied building-engineering concepts including insulation, structural design, U-values, concrete strengths, etc. To gather high-quality data. As of today (June 4, 2025), the model is available.  Feel free to try it out.
 
 ---
 
@@ -34,6 +34,7 @@ I collected data over four months and studied building engineering in depth to e
 git clone https://github.com/IrfanUruchi/1B-building-engineering-llm.git
 cd 1B-building-engineering-llm
 ```
+
 Otherwise, download individual files from the GitHub web interface.
 
 Use the code below to load the merged model and ask a simple question:
