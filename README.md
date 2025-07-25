@@ -6,11 +6,10 @@ Fine-tuned EleutherAI/pythia-1b for building-engineering tasks using 4-bit quant
 
 ---
 
-```markdown
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/IrfanUruchi/1B-building-engineering-llm)
 [![Model Weights](https://img.shields.io/badge/🤗-Model_Weights-FFD21F?style=for-the-badge)](https://huggingface.co/Irfanuruchi/1B-building-engineering-llm)
 [![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
-```
+
 
 
 ## What Is This?
