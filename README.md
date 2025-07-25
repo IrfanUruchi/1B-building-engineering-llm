@@ -78,4 +78,7 @@ This project (code & training recipes) is released under the Apache License 2.0.
 Model weights (EleutherAI/pythia-1b-deduped) are also Apache-2.0. See Licence for more detais
 
 
+## Special dedication
+
+"For my father - who taught me that strong foundations matter in both buildings and life."
 Happy Birthday, Dad!
