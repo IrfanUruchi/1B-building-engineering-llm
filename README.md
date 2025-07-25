@@ -10,7 +10,7 @@ Fine-tuned EleutherAI/pythia-1b for building-engineering tasks using 4-bit quant
 [![Model Weights](https://img.shields.io/badge/🤗-Model_Weights-FFD21F?style=for-the-badge)](https://huggingface.co/Irfanuruchi/1B-building-engineering-llm)
 [![Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
 
-
+---
 
 ## What Is This?
 
@@ -30,6 +30,32 @@ I collected data over four months and studied building engineering in depth to e
 ---
 
 ## Quickstart
+
+If you want you can use directly the Huggingface version :
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+
+model = AutoModelForCausalLM.from_pretrained(
+    "Irfanuruchi/1B-building-engineering-llm",
+    trust_remote_code=True
+)
+
+tokenizer = AutoTokenizer.from_pretrained("Irfanuruchi/1B-building-engineering-llm")
+
+prompt = """You are an experienced building engineer. Answer concisely:
+Q: What factors affect concrete curing time?
+A:"""
+
+inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
+outputs = model.generate(**inputs, max_new_tokens=100)
+print(tokenizer.decode(outputs[0], skip_special_tokens=True))
+```
+
+
+### GitHub
+
+Or if you dont have Huggingface set up on your local machine you can freely go with the following tutorial.
 
 **Clone the repo**
 
@@ -72,11 +98,14 @@ outputs = model.generate(
 print(tokenizer.decode(outputs[0], skip_special_tokens=True, clean_up_tokenization_spaces=True))
 ```
 
+---
+
 ## License
 
 This project (code & training recipes) is released under the Apache License 2.0.
 Model weights (EleutherAI/pythia-1b-deduped) are also Apache-2.0. See Licence for more detais
 
+---
 
 ## Special dedication
 
